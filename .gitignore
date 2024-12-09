@@ -1,0 +1,22 @@
+sdfsdfsd# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+
+# Asset Store files
+[Aa]ssets/AssetStoreTools*
+
+# VSCode
+.vscode/
+
+# Rider
+.idea/
+*.iml
