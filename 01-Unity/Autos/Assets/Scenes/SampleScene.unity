@@ -304,6 +304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b85fb3b720ed5d498e689b97ad7a07b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyDelay: 0.5
 --- !u!61 &574438171
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -336,7 +337,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.10310626, y: 0.09319985}
+  m_Offset: {x: 0.0062197447, y: 0.01759988}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -347,7 +348,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7937875, y: 0.8136003}
+  m_Size: {x: 1.0124395, y: 1.0555207}
   m_EdgeRadius: 0
 --- !u!212 &574438172
 SpriteRenderer:
@@ -497,6 +498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b85fb3b720ed5d498e689b97ad7a07b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyDelay: 0.5
 --- !u!212 &616458135
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -749,7 +751,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.10310626, y: 0.09319985}
+  m_Offset: {x: 0.0064054728, y: -0.0015691519}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -760,7 +762,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7937875, y: 0.8136003}
+  m_Size: {x: 1.012811, y: 1.0031383}
   m_EdgeRadius: 0
 --- !u!114 &926945656
 MonoBehaviour:
@@ -774,6 +776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b85fb3b720ed5d498e689b97ad7a07b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyDelay: 0.5
 --- !u!1 &1104811047
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,6 +911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b85fb3b720ed5d498e689b97ad7a07b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyDelay: 0.5
 --- !u!58 &1104811052
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -956,6 +960,7 @@ GameObject:
   - component: {fileID: 1545115431}
   - component: {fileID: 1545115433}
   - component: {fileID: 1545115432}
+  - component: {fileID: 1545115434}
   m_Layer: 0
   m_Name: Carrito
   m_TagString: Untagged
@@ -1106,6 +1111,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.021605918, y: -0.008012224}
   m_Size: {x: 3.578178, y: 7.4697013}
   m_Direction: 0
+--- !u!114 &1545115434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545115428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b85fb3b720ed5d498e689b97ad7a07b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyDelay: 0.5
 --- !u!1 &1632350589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,6 +1222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b85fb3b720ed5d498e689b97ad7a07b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyDelay: 0.5
 --- !u!61 &1632350595
 BoxCollider2D:
   m_ObjectHideFlags: 0
